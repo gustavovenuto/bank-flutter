@@ -26,7 +26,7 @@ class Editor extends StatelessWidget {
         controller: controlador,
         style: TextStyle(fontSize: 24.0),
         decoration: InputDecoration(
-          fillColor: Colors.orange, filled: true,
+          fillColor: Colors.white,
           icon: icone != null ? Icon(icone) : null,
           labelText: rotulo,
           hintText: dica,
